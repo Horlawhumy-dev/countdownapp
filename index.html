@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNT DOWN APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="section1">
+            <h2>count down app</h2>
+            <audio src="music/Simi-Duduke.mp3" class="audio-play" id="music" controls muted></audio>
+          
+        </section>
+        <section class="section2">
+           <form id="form">
+               <input type="text" id="year" placeholder="Enter Year...">
+               <input type="text" id="month" placeholder="Enter Month...">
+               <input type="text" id="date" placeholder="Enter specific date e.g 12?">
+               <input type="text" id="hours" placeholder="What hour(s)?">
+               <button id="btn"type="submit">Submit</button>
+           </form>
+        </section>
+        <section class="section3">
+            <div class="countdown">
+                <span id="days" ></span>
+                <span>DAYS</span>
+            </div>
+            <div class="countdown">
+                <span id="hours" ></span>
+                <span>HOURS</span>
+            </div>
+            <div class="countdown">
+                <span id="minutes" ></span>
+                <span>MINUTES</span>
+            </div>
+            <div class="countdown">
+                <span id="seconds" ></span>
+                <span>SECONDS</span>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
